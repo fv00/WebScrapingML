@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 # Setting soup
-url = "https://listado.mercadolibre.com.co/renalut-logan"
+url = "https://carros.mercadolibre.com.co/renault/antioquia/renault-logan_DisplayType_LF"
 req = requests.get(url)
 soup = BeautifulSoup(req.content, features="html.parser")
 
